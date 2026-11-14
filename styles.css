@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.nav-recipes {
+    background-color: #007A33;
+    padding: 20px;
+    color: #FAD119;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-logo h1{
+    color: #FAD119;
+    font-size: 24px;
+
+}
+.nav-links ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FAD119;
+    font-weight: 550;
+    font-size: 12px;
+}
+li a:hover {
+    color: #ffffff;
+    
+}
+
+.nav-links {
+    padding-top: 10px;
+}
+
+.login-signup-cta {
+    background-color: #FAD119;
+    font-size: 12px;
+    font-weight: bold;
+    color: #007A33;
+    padding: 10px;
+    border-radius: 20px;
+ border: 2px solid transparent;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.login-signup-cta:hover{
+background-color: #007A33;
+color: #FAD119;
+border-color: #FAD119;
+}
+
+.recipe-title{
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 4px;
+    color: black;
+}
+.recipe-image{
+    height: auto;
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #007A33;
+
+}
+
+.recipe-title-description {
+    margin-top: 8px;
+}
+.recipe-title-description h2{
+    padding: 4px;
+    font-size: 18px;
+    background-color: #007A33;
+    border: 1px solid #65692C;
+    color: #FAD119;
+}
+
+.recipe-title-description p {
+    font-size: 14px;
+    margin: 8px;
+}
+
+.recipe-ingredients h2, .recipe-direction h2{
+    padding: 4px;
+    font-size: 18px;
+    background-color: #007A33;
+    border: 1px solid #65692C;
+    color: #FAD119;
+}
+
+.recipe-ingredients-list li, .recipe-direction-list li{
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+   display: list-item;
+    
+}
+.recipe-ingredients-list {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+.recipe-direction-list {
+    list-style: decimal;
+    padding-left: 2rem;
+}
